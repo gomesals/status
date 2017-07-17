@@ -6,4 +6,36 @@ html(lang="en")
 		title REST API Status
 	body
 		h1 REST API Status
+		table
+			tr
+				th Categorie
+				th Status
+				th Description
+			tr
+				td(rowspan="2") Standard Errors
+				td 200
+				td When everything is okay.
+			tr
+				td 500
+				td When the server throws an error, completely unexpected.
+			tr
+				td(rowspan="4") Data Errors
+				td 400
+				td When the requested information is incomplete or malformed.
+			tr
+				td 422
+				td When the requested information is okay, but invalid.
+			tr
+				td 404
+				td When everything is okay, but the resource doesn't exist.
+			tr
+				td 409
+				td When a conflict of data exists, even with valid information.
+			tr
+				td(rowspan="2") Auth Errors
+				td 401
+				td When an access token isn't provided, or is invalid.
+			tr
+				td 403
+				td When an access token is valid, but requires more privileges.
 		script(src="//192.168.0.100:35729/livereload.js")

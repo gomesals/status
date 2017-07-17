@@ -1,1 +1,32 @@
 @import "lib/_default.scss";
+body{
+	margin-top: 5em;
+}
+h1{
+	font-weight: 300;
+
+	margin-bottom: 2em;
+
+	text-align: center;
+}
+table{
+	margin: 0 auto;
+	tr{
+		&:first-child{
+			font-size: 1.2em;
+
+			color: $primary;
+			th{
+				padding: 1em 1.5em;
+			}
+		}
+		&:hover{
+			background-color: $gray;
+		}
+		td{
+			padding: .5em;
+
+			border-bottom: 1px solid $accent;
+		}
+	}
+}
