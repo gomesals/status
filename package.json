@@ -1,0 +1,25 @@
+{
+	"name": "status",
+	"version": "1.0.0",
+	"description": "REST API status code",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Alexandre Silva <contato@silvalexandre.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"cssnano": "^3.10.0",
+		"grunt": "^1.0.1",
+		"grunt-contrib-pug": "^1.0.0",
+		"grunt-contrib-watch": "^1.0.0",
+		"grunt-newer": "^1.2.0",
+		"grunt-postcss": "^0.8.0",
+		"load-grunt-tasks": "^3.5.2",
+		"postcss-cssnext": "^2.10.0",
+		"postcss-scss": "^0.4.1",
+		"postcss-strip-inline-comments": "^0.1.5",
+		"precss": "^1.4.0"
+	},
+	"dependencies": {}
+}
